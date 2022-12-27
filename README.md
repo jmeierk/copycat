@@ -1,11 +1,8 @@
 <a name="readme-top"></a> 
 
-::: {align="center"}
 <h3 align="center"> Copycat </h3>
 <p align="center"> The <ins>Cop</ins>h<ins>y</ins>logeneti<ins>c</ins> <ins>A</ins>nalysis <ins>T</ins>ool <br />
 </p>
-:::
-
 
 <!-- ABOUT THE PROJECT -->
 ## About
