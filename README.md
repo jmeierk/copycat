@@ -137,7 +137,7 @@ Use of the program is free for academic purposes at an academic institute. For a
 
 ## Contact
 
-* If the feedback concerns this project, please open an issue because others will likely benefit from this.
+* If the feedback concerns this project, please open an <a href="https://github.com/jmeierk/copycat/issues">issue</a> because others will likely benefit from this.
 * If you have general questions about Copycat, please contact me <a href="https://www.cophylogenetics.com/contact/">here</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
