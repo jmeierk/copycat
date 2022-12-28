@@ -9,11 +9,13 @@
 
 [![Copycat](images/copycat_tanglegram_logo.png)](https://www.cophylogenetics.com/)
 
-CopyCat provides an easy and fast access to cophylogenetic analyses. It incorporates a wrapper for the program AxParaFit, which conducts a statistical test for the presence of congruence between host and parasite phylogenies.
+[CopyCat](#citations) provides an easy and fast access to cophylogenetic analyses. It incorporates a wrapper for the program [AxParaFit](#citations), which conducts a statistical test for the presence of congruence between host and parasite phylogenies.
 
 CopyCat offers various features, such as the creation of customized host-parasite association data and the computation of phylogenetic host/parasite trees based on the NCBI taxonomy.
 
-The Copycat homepage (with an FAQ, classic standalone versions and a manual) is found here: https://www.cophylogenetics.com/
+The official Copycat homepage (provides an FAQ, classic standalone versions, a manual etc.) is found here: 
+
+https://www.cophylogenetics.com/
 
 **Update in 2022:** 
 
