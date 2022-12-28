@@ -102,9 +102,9 @@ Docker version 20.10.12, build 20.10.12-0ubuntu2~20.04.1
 
 The work on the <a href="https://doi.org/10.1080/10635150252899734">original Parafit method</a> contains a small but real dataset between (cute) pocket gophers (hosts) and chewing lice (parasites). Using the ParaFitLink1 statistic (reported on Copycat's third tab), tested at a significance value $\alpha$ = 0.05, the authors found that 7 of the 17 host/parasite links were not significant. The input files of that example are found in the `/example` folder.
 
-When testing at a more strict $\alpha$ = 0.02 only 4 significant links are reported (see Fig. 1).
+For example, when testing at a more strict $\alpha$ = 0.02 only 4 significant links are reported (see Fig. 1).
 
-**Note:** because of the quirky user interface, changes in the "Value of Significance" field will be visually applied e.g. when changing the width of an arbitrary column.
+**Note:** because of the quirky user interface, changes in the "Value of Significance" field will be visually applied once the result window is rendered again (can be triggered by e.g. resizing the results window or by changing the width of an arbitrary column). By far not optimal, but works.
 
 ![**Figure 1 -- Copycat result view when testing at $\alpha$ = 0.02.** 
 \label{fig:01}](images/Parafit_expected_significant_links_at_alpha_0.02__gopher_lice_example_dataset.png)
