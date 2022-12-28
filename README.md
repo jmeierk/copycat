@@ -13,9 +13,9 @@ CopyCat provides an easy and fast access to cophylogenetic analyses. It incorpor
 
 CopyCat offers various features, such as the creation of customized host-parasite association data and the computation of phylogenetic host/parasite trees based on the NCBI taxonomy.
 
-The Copycat homepage with is found here: https://www.cophylogenetics.com/
+The Copycat homepage (with an FAQ, classic standalone versions and a manual) is found here: https://www.cophylogenetics.com/
 
-**2022 update:** 
+**Update in 2022:** 
 
 This project is a dockerized version of Copycat, to (hopefully) solve an increasing number of compatibility issues.
 
@@ -37,16 +37,21 @@ Testing was only done on a Linux host machine, i.e., compatibility on Mac or Win
 ### Prerequisites
 
 Install docker on your Linux system and check the installation via `docker -v`.
+Something like this should appear (version numbers can vary of course):
+
+```text
+Docker version 20.10.12, build 20.10.12-0ubuntu2~20.04.1
+```
 
 ### Installation
 
-1.  Clone the repo
+1.  Clone the Copycat repository:
 
     ```bash
     git clone https://github.com/jmeierk/copycat.git
     ```
 
-2. Go to the folder on your disk 
+2. Go to the respective folder on your disk 
 
 3. Build the Copycat image from the Dockerfile:
 
@@ -71,7 +76,7 @@ Install docker on your Linux system and check the installation via `docker -v`.
     	-v "$PWD":/copycatapp \
     	-v "$PWD"/CopycatFiles:/copycatapp/CopycatFiles \
     	-w /copycatapp \
-      -u "$(id -u):$(id -g)" \
+        -u "$(id -u):$(id -g)" \
     	copycat:204
     ```
 
@@ -80,7 +85,7 @@ Install docker on your Linux system and check the installation via `docker -v`.
     ```text
     Can't connect to X11 window server using ':0' as the value of the DISPLAY variable
     ```
-    Here you might have to allow non-network local connections to your X server:
+    On your **host** system you might have to allow non-network local connections to your X server:
     
     ```text
     xhost +local:
@@ -132,11 +137,7 @@ Use of the program is free for academic purposes at an academic institute. For a
 
 ## Contact
 
-<a href="https://www.cophylogenetics.com/contact/">Please find author contact info on www.cophylogenetics.com</a>
+* If the feedback concerns this project, please open an issue because others will likely benefit from this.
+* If you have general questions about Copycat, please contact me <a href="https://www.cophylogenetics.com/contact/">here</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
